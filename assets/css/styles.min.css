@@ -502,7 +502,7 @@ html {
 }
 
 .header-dark {
-    background: url(/assets/img/joel_watkins_black.png?h=10c99c0566801c81d2bdf5d8331229a3) center/cover;
+    background: url(/assets/img/IMG_2517.jpg) center/cover;
     height: 100vh;
     color: #fff;
     position: relative;
@@ -512,7 +512,7 @@ html {
 @media (max-width:768px) {
     .header-dark {
         padding-bottom: 0;
-        background: url(/assets/img/joel_watkins_ios.png?h=076a3d9bcc428accb5fe3858f0972f57) center/cover
+        background: url(/assets/img/IMG_2517_ios.jpg) center/cover
     }
 }
 
