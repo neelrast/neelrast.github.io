@@ -1,1 +1,18 @@
-{"short_name":"Neel's Portfolio","name":"Neelesh Rastogi","icons":[{"src":"/assets/img/n_logo_black.png?h=ffe82e33a5851f56b2f3f878881c38ea","type":"image/png","sizes":"275x216"},{"src":"/assets/img/n_logo_black.png?h=ffe82e33a5851f56b2f3f878881c38ea","type":"image/png","sizes":"275x216"}],"start_url":"/index.html","background_color":"white","theme_color":"white","display":"fullscreen","orientation":"portrait"}
+{
+    "short_name": "Neel's Portfolio",
+    "name": "Neelesh Rastogi",
+    "icons": [{
+        "src": "/assets/img/n_logo_black.png?h=ffe82e33a5851f56b2f3f878881c38ea",
+        "type": "image/png",
+        "sizes": "275x216"
+    }, {
+        "src": "/assets/img/n_logo_black.png?h=ffe82e33a5851f56b2f3f878881c38ea",
+        "type": "image/png",
+        "sizes": "275x216"
+    }],
+    "start_url": "/index.html",
+    "background_color": "white",
+    "theme_color": "white",
+    "display": "fullscreen",
+    "orientation": "portrait"
+}
