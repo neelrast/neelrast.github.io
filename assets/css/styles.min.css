@@ -190,7 +190,7 @@
 
 @media (min-width:360px) {
     #header-main {
-        padding-top: 20vh;
+        padding-top: 4vh;
         font-size: 40px;
         font-weight: 500
     }
@@ -204,38 +204,6 @@
     }
 }
 
-.header-blue .iphone-mockup .screen:before {
-    content: '';
-    background-color: #fff;
-    position: absolute;
-    width: 70%;
-    height: 140%;
-    top: -12%;
-    right: -60%;
-    transform: rotate(-19deg);
-    opacity: .2
-}
-
-.header-blue .iphone-mockup .screen {
-    position: absolute;
-    width: 88%;
-    height: 77%;
-    top: 12%;
-    border-radius: 2px;
-    left: 6%;
-    border: 1px solid #444;
-    overflow: hidden;
-    background: url(screen-content-iphone-6.jpg) center;
-    background-size: cover
-}
-
-.header-blue div.iphone-mockup {
-    position: relative;
-    max-width: 300px;
-    margin: 20px;
-    display: inline-block
-}
-
 .header-blue .text-holder {
     text-align: right
 }
@@ -245,11 +213,6 @@
     font-size: 18px;
     margin-bottom: 30px;
     font-weight: 300
-}
-
-.header-blue .iphone-mockup img.device {
-    width: 100%;
-    height: auto
 }
 
 @media (min-width:992px) {
@@ -386,3 +349,18 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
   }
+@media(min-width: 360px){
+    .text{
+        font-size: 25px;
+    }
+}
+@media(min-width: 640px){
+    .text{
+        font-size: 10px;
+    }
+}
+@media (max-width: 767px) {                  
+    .content-to-hide {
+       display: none;
+    }
+ }
