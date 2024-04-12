@@ -164,7 +164,7 @@ h6 {
 }
 
 .scroll-top:hover {
-	background: rgba(39, 167, 118, 0.8);
+	background: #32cf93;
 	color: #fff;
 }
 
@@ -287,7 +287,7 @@ h6 {
 	.navbar .active,
 	.navbar .active:focus,
 	.navbar li:hover > a {
-		color: #fff;
+		color: #32cf93;
 	}
 
 	.navbar .dropdown ul {
@@ -1138,7 +1138,7 @@ h6 {
 }
 
 .hero .btn-get-started:hover {
-	background: var(--color-default);
+	background: #32cf93;
 }
 
 .hero .btn-more {
@@ -1156,7 +1156,7 @@ h6 {
 }
 
 .hero .btn-more:hover {
-	background: var(--color-default);
+	background: #32cf93;
 }
 
 @media (max-width: 768px) {
