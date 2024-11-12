@@ -151,3 +151,18 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
+
+// VantaJS background animation
+VANTA.GLOBE({
+	el: "#vantajs",
+	mouseControls: true,
+	touchControls: true,
+	gyroControls: true,
+	minHeight: 200.0,
+	minWidth: 200.0,
+	scale: 1.0,
+	scaleMobile: 1.0,
+	color: 0xa3ff,
+	size: 1.0,
+	backgroundColor: 0x0,
+});
