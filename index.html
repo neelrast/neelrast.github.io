@@ -17,6 +17,9 @@
 		</script>
 		<!-- End Google Tag Manager -->
 
+		<!--Vanta JS-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
 		<!-- Meta Tags -->
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -106,422 +109,425 @@
 		<!-- End Header -->
 
 		<!-- ======= Hero Section ======= -->
-		<section
-			id="hero"
-			class="hero d-flex flex-column justify-content-center align-items-center"
-			data-aos="fade"
-			data-aos-delay="100"
-		>
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-lg-7 text-center">
-						<img
-							src="assets/img/logo-dark.png"
-							class="img-fluid"
-							alt=""
-							height="50vh"
-						/>
-						<br /><br />
-						<h2>ML Engineer & AI Researcher</h2>
-						<p>
-							Embrace an engineering mindset, leverage repeatable designs &
-							build solutions that act as copilots.
-						</p>
-						<br />
-						<a href="mailto:rastogineelesh1@gmail.com" class="btn-get-started">Let's Connect</a>
-						<a href="about.html" class="btn-more">Learn More</a>
-						<br />
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Hero Section -->
-
-		<!-- ======= Gallery Section ======= -->
-		<!-- 
-		<main id="main" data-aos="fade" data-aos-delay="100">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg">
-						<center>
-							<h2>Project Showcase</h2>
-						</center>
-					</div>
-				</div>
-			</div>
-			<section id="gallery" class="gallery">
-				<div class="container-fluid">
-					<div class="row gy-4 justify-content-center">
-						<div class="col-xl-3 col-lg-4 col-md-6">
-							<div class="gallery-item h-100">
-								<img
-									src="assets/img/gallery/gallery-1.png"
-									class="img-fluid"
-									alt=""
-								/>
-								<div
-									class="gallery-links d-flex align-items-center justify-content-center"
-								>
-									<a
-										href="assets/img/gallery/gallery-1.png"
-										title="Gallery 1"
-										class="glightbox preview-link"
-										><i class="bi bi-arrows-angle-expand"></i
-									></a>
-									<a href="gallery-single.html" class="details-link"
-										><i class="bi bi-link-45deg"></i
-									></a>
-								</div>
-							</div>
+		<div id="vantajs">
+			<section
+				id="hero"
+				class="hero d-flex flex-column justify-content-center align-items-center"
+				data-aos="fade"
+				data-aos-delay="100"
+			>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-7 text-center">
+							<img
+								src="assets/img/logo-dark.png"
+								class="img-fluid"
+								alt=""
+								width="400vh"
+							/>
+							<br /><br />
+							<h2>ML Engineer & AI Researcher</h2>
+							<p>
+								Embrace an engineering mindset, leverage repeatable designs &
+								build solutions that act as copilots.
+							</p>
+							<br />
+							<a href="mailto:rastogineelesh1@gmail.com" class="btn-get-started"
+								>Let's Connect</a
+							>
+							<a href="about.html" class="btn-more">Learn More</a>
+							<br />
 						</div>
-						<div class="col-xl-3 col-lg-4 col-md-6">
-							<div class="gallery-item h-100">
-								<img
-									src="assets/img/gallery/gallery-2.png"
-									class="img-fluid"
-									alt=""
-								/>
-								<div
-									class="gallery-links d-flex align-items-center justify-content-center"
-								>
-									<a
-										href="assets/img/gallery/gallery-2.png"
-										title="Gallery 2"
-										class="glightbox preview-link"
-										><i class="bi bi-arrows-angle-expand"></i
-									></a>
-									<a href="gallery-single.html" class="details-link"
-										><i class="bi bi-link-45deg"></i
-									></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-3 col-lg-4 col-md-6">
-							<div class="gallery-item h-100">
-								<img
-									src="assets/img/gallery/gallery-3.png"
-									class="img-fluid"
-									alt=""
-								/>
-								<div
-									class="gallery-links d-flex align-items-center justify-content-center"
-								>
-									<a
-										href="assets/img/gallery/gallery-3.png"
-										title="Gallery 3"
-										class="glightbox preview-link"
-										><i class="bi bi-arrows-angle-expand"></i
-									></a>
-									<a href="gallery-single.html" class="details-link"
-										><i class="bi bi-link-45deg"></i
-									></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-3 col-lg-4 col-md-6">
-							<div class="gallery-item h-100">
-								<img
-									src="assets/img/gallery/gallery-4.png"
-									class="img-fluid"
-									alt=""
-								/>
-								<div
-									class="gallery-links d-flex align-items-center justify-content-center"
-								>
-									<a
-										href="assets/img/gallery/gallery-4.png"
-										title="Gallery 4"
-										class="glightbox preview-link"
-										><i class="bi bi-arrows-angle-expand"></i
-									></a>
-									<a href="gallery-single.html" class="details-link"
-										><i class="bi bi-link-45deg"></i
-									></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-3 col-lg-4 col-md-6">
-							<div class="gallery-item h-100">
-								<img
-									src="assets/img/gallery/gallery-5.png"
-									class="img-fluid"
-									alt=""
-								/>
-								<div
-									class="gallery-links d-flex align-items-center justify-content-center"
-								>
-									<a
-										href="assets/img/gallery/gallery-5.png"
-										title="Gallery 5"
-										class="glightbox preview-link"
-										><i class="bi bi-arrows-angle-expand"></i
-									></a>
-									<a href="gallery-single.html" class="details-link"
-										><i class="bi bi-link-45deg"></i
-									></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-3 col-lg-4 col-md-6">
-							<div class="gallery-item h-100">
-								<img
-									src="assets/img/gallery/gallery-6.png"
-									class="img-fluid"
-									alt=""
-								/>
-								<div
-									class="gallery-links d-flex align-items-center justify-content-center"
-								>
-									<a
-										href="assets/img/gallery/gallery-6.png"
-										title="Gallery 6"
-										class="glightbox preview-link"
-										><i class="bi bi-arrows-angle-expand"></i
-									></a>
-									<a href="gallery-single.html" class="details-link"
-										><i class="bi bi-link-45deg"></i
-									></a>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-xl-3 col-lg-4 col-md-6">
-							<div class="gallery-item h-100">
-								<img
-									src="assets/img/gallery/gallery-7.png"
-									class="img-fluid"
-									alt=""
-								/>
-								<div
-									class="gallery-links d-flex align-items-center justify-content-center"
-								>
-									<a
-										href="assets/img/gallery/gallery-7.png"
-										title="Gallery 7"
-										class="glightbox preview-link"
-										><i class="bi bi-arrows-angle-expand"></i
-									></a>
-									<a href="gallery-single.html" class="details-link"
-										><i class="bi bi-link-45deg"></i
-									></a>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-xl-3 col-lg-4 col-md-6">
-							<div class="gallery-item h-100">
-								<img
-									src="assets/img/gallery/gallery-8.png"
-									class="img-fluid"
-									alt=""
-								/>
-								<div
-									class="gallery-links d-flex align-items-center justify-content-center"
-								>
-									<a
-										href="assets/img/gallery/gallery-8.png"
-										title="Gallery 8"
-										class="glightbox preview-link"
-										><i class="bi bi-arrows-angle-expand"></i
-									></a>
-									<a href="gallery-single.html" class="details-link"
-										><i class="bi bi-link-45deg"></i
-									></a>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-xl-3 col-lg-4 col-md-6">
-							<div class="gallery-item h-100">
-								<img
-									src="assets/img/gallery/gallery-9.png"
-									class="img-fluid"
-									alt=""
-								/>
-								<div
-									class="gallery-links d-flex align-items-center justify-content-center"
-								>
-									<a
-										href="assets/img/gallery/gallery-9.png"
-										title="Gallery 9"
-										class="glightbox preview-link"
-										><i class="bi bi-arrows-angle-expand"></i
-									></a>
-									<a href="gallery-single.html" class="details-link"
-										><i class="bi bi-link-45deg"></i
-									></a>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-xl-3 col-lg-4 col-md-6">
-							<div class="gallery-item h-100">
-								<img
-									src="assets/img/gallery/gallery-10.png"
-									class="img-fluid"
-									alt=""
-								/>
-								<div
-									class="gallery-links d-flex align-items-center justify-content-center"
-								>
-									<a
-										href="assets/img/gallery/gallery-10.png"
-										title="Gallery 10"
-										class="glightbox preview-link"
-										><i class="bi bi-arrows-angle-expand"></i
-									></a>
-									<a href="gallery-single.html" class="details-link"
-										><i class="bi bi-link-45deg"></i
-									></a>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-xl-3 col-lg-4 col-md-6">
-							<div class="gallery-item h-100">
-								<img
-									src="assets/img/gallery/gallery-11.gif"
-									class="img-fluid"
-									alt=""
-								/>
-								<div
-									class="gallery-links d-flex align-items-center justify-content-center"
-								>
-									<a
-										href="assets/img/gallery/gallery-11.gif"
-										title="Gallery 11"
-										class="glightbox preview-link"
-										><i class="bi bi-arrows-angle-expand"></i
-									></a>
-									<a href="gallery-single.html" class="details-link"
-										><i class="bi bi-link-45deg"></i
-									></a>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-xl-3 col-lg-4 col-md-6">
-							<div class="gallery-item h-100">
-								<img
-									src="assets/img/gallery/gallery-12.png"
-									class="img-fluid"
-									alt=""
-								/>
-								<div
-									class="gallery-links d-flex align-items-center justify-content-center"
-								>
-									<a
-										href="assets/img/gallery/gallery-12.png"
-										title="Gallery 12"
-										class="glightbox preview-link"
-										><i class="bi bi-arrows-angle-expand"></i
-									></a>
-									<a href="gallery-single.html" class="details-link"
-										><i class="bi bi-link-45deg"></i
-									></a>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-xl-3 col-lg-4 col-md-6">
-							<div class="gallery-item h-100">
-								<img
-									src="assets/img/gallery/gallery-13.png"
-									class="img-fluid"
-									alt=""
-								/>
-								<div
-									class="gallery-links d-flex align-items-center justify-content-center"
-								>
-									<a
-										href="assets/img/gallery/gallery-13.png"
-										title="Gallery 13"
-										class="glightbox preview-link"
-										><i class="bi bi-arrows-angle-expand"></i
-									></a>
-									<a href="gallery-single.html" class="details-link"
-										><i class="bi bi-link-45deg"></i
-									></a>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-xl-3 col-lg-4 col-md-6">
-							<div class="gallery-item h-100">
-								<img
-									src="assets/img/gallery/gallery-14.png"
-									class="img-fluid"
-									alt=""
-								/>
-								<div
-									class="gallery-links d-flex align-items-center justify-content-center"
-								>
-									<a
-										href="assets/img/gallery/gallery-14.png"
-										title="Gallery 14"
-										class="glightbox preview-link"
-										><i class="bi bi-arrows-angle-expand"></i
-									></a>
-									<a href="gallery-single.html" class="details-link"
-										><i class="bi bi-link-45deg"></i
-									></a>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-xl-3 col-lg-4 col-md-6">
-							<div class="gallery-item h-100">
-								<img
-									src="assets/img/gallery/gallery-15.gif"
-									class="img-fluid"
-									alt=""
-								/>
-								<div
-									class="gallery-links d-flex align-items-center justify-content-center"
-								>
-									<a
-										href="assets/img/gallery/gallery-15.gif"
-										title="Gallery 15"
-										class="glightbox preview-link"
-										><i class="bi bi-arrows-angle-expand"></i
-									></a>
-									<a href="gallery-single.html" class="details-link"
-										><i class="bi bi-link-45deg"></i
-									></a>
-								</div>
-							</div>
-						</div>
-						
-						<div class="col-xl-3 col-lg-4 col-md-6">
-							<div class="gallery-item h-100">
-								<img
-									src="assets/img/gallery/gallery-16.png"
-									class="img-fluid"
-									alt=""
-								/>
-								<div
-									class="gallery-links d-flex align-items-center justify-content-center"
-								>
-									<a
-										href="assets/img/gallery/gallery-16.png"
-										title="Gallery 16"
-										class="glightbox preview-link"
-										><i class="bi bi-arrows-angle-expand"></i
-									></a>
-									<a href="gallery-single.html" class="details-link"
-										><i class="bi bi-link-45deg"></i
-									></a>
-								</div>
-							</div>
-						</div>
-						
 					</div>
 				</div>
 			</section>
-		</main> 
-		-->
-		<!-- End Gallery Section -->
+			<!-- End Hero Section -->
 
+			<!-- ======= Gallery Section ======= -->
+			<!-- 
+			<main id="main" data-aos="fade" data-aos-delay="100">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg">
+							<center>
+								<h2>Project Showcase</h2>
+							</center>
+						</div>
+					</div>
+				</div>
+				<section id="gallery" class="gallery">
+					<div class="container-fluid">
+						<div class="row gy-4 justify-content-center">
+							<div class="col-xl-3 col-lg-4 col-md-6">
+								<div class="gallery-item h-100">
+									<img
+										src="assets/img/gallery/gallery-1.png"
+										class="img-fluid"
+										alt=""
+									/>
+									<div
+										class="gallery-links d-flex align-items-center justify-content-center"
+									>
+										<a
+											href="assets/img/gallery/gallery-1.png"
+											title="Gallery 1"
+											class="glightbox preview-link"
+											><i class="bi bi-arrows-angle-expand"></i
+										></a>
+										<a href="gallery-single.html" class="details-link"
+											><i class="bi bi-link-45deg"></i
+										></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-md-6">
+								<div class="gallery-item h-100">
+									<img
+										src="assets/img/gallery/gallery-2.png"
+										class="img-fluid"
+										alt=""
+									/>
+									<div
+										class="gallery-links d-flex align-items-center justify-content-center"
+									>
+										<a
+											href="assets/img/gallery/gallery-2.png"
+											title="Gallery 2"
+											class="glightbox preview-link"
+											><i class="bi bi-arrows-angle-expand"></i
+										></a>
+										<a href="gallery-single.html" class="details-link"
+											><i class="bi bi-link-45deg"></i
+										></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-md-6">
+								<div class="gallery-item h-100">
+									<img
+										src="assets/img/gallery/gallery-3.png"
+										class="img-fluid"
+										alt=""
+									/>
+									<div
+										class="gallery-links d-flex align-items-center justify-content-center"
+									>
+										<a
+											href="assets/img/gallery/gallery-3.png"
+											title="Gallery 3"
+											class="glightbox preview-link"
+											><i class="bi bi-arrows-angle-expand"></i
+										></a>
+										<a href="gallery-single.html" class="details-link"
+											><i class="bi bi-link-45deg"></i
+										></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-md-6">
+								<div class="gallery-item h-100">
+									<img
+										src="assets/img/gallery/gallery-4.png"
+										class="img-fluid"
+										alt=""
+									/>
+									<div
+										class="gallery-links d-flex align-items-center justify-content-center"
+									>
+										<a
+											href="assets/img/gallery/gallery-4.png"
+											title="Gallery 4"
+											class="glightbox preview-link"
+											><i class="bi bi-arrows-angle-expand"></i
+										></a>
+										<a href="gallery-single.html" class="details-link"
+											><i class="bi bi-link-45deg"></i
+										></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-md-6">
+								<div class="gallery-item h-100">
+									<img
+										src="assets/img/gallery/gallery-5.png"
+										class="img-fluid"
+										alt=""
+									/>
+									<div
+										class="gallery-links d-flex align-items-center justify-content-center"
+									>
+										<a
+											href="assets/img/gallery/gallery-5.png"
+											title="Gallery 5"
+											class="glightbox preview-link"
+											><i class="bi bi-arrows-angle-expand"></i
+										></a>
+										<a href="gallery-single.html" class="details-link"
+											><i class="bi bi-link-45deg"></i
+										></a>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 col-lg-4 col-md-6">
+								<div class="gallery-item h-100">
+									<img
+										src="assets/img/gallery/gallery-6.png"
+										class="img-fluid"
+										alt=""
+									/>
+									<div
+										class="gallery-links d-flex align-items-center justify-content-center"
+									>
+										<a
+											href="assets/img/gallery/gallery-6.png"
+											title="Gallery 6"
+											class="glightbox preview-link"
+											><i class="bi bi-arrows-angle-expand"></i
+										></a>
+										<a href="gallery-single.html" class="details-link"
+											><i class="bi bi-link-45deg"></i
+										></a>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-xl-3 col-lg-4 col-md-6">
+								<div class="gallery-item h-100">
+									<img
+										src="assets/img/gallery/gallery-7.png"
+										class="img-fluid"
+										alt=""
+									/>
+									<div
+										class="gallery-links d-flex align-items-center justify-content-center"
+									>
+										<a
+											href="assets/img/gallery/gallery-7.png"
+											title="Gallery 7"
+											class="glightbox preview-link"
+											><i class="bi bi-arrows-angle-expand"></i
+										></a>
+										<a href="gallery-single.html" class="details-link"
+											><i class="bi bi-link-45deg"></i
+										></a>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-xl-3 col-lg-4 col-md-6">
+								<div class="gallery-item h-100">
+									<img
+										src="assets/img/gallery/gallery-8.png"
+										class="img-fluid"
+										alt=""
+									/>
+									<div
+										class="gallery-links d-flex align-items-center justify-content-center"
+									>
+										<a
+											href="assets/img/gallery/gallery-8.png"
+											title="Gallery 8"
+											class="glightbox preview-link"
+											><i class="bi bi-arrows-angle-expand"></i
+										></a>
+										<a href="gallery-single.html" class="details-link"
+											><i class="bi bi-link-45deg"></i
+										></a>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-xl-3 col-lg-4 col-md-6">
+								<div class="gallery-item h-100">
+									<img
+										src="assets/img/gallery/gallery-9.png"
+										class="img-fluid"
+										alt=""
+									/>
+									<div
+										class="gallery-links d-flex align-items-center justify-content-center"
+									>
+										<a
+											href="assets/img/gallery/gallery-9.png"
+											title="Gallery 9"
+											class="glightbox preview-link"
+											><i class="bi bi-arrows-angle-expand"></i
+										></a>
+										<a href="gallery-single.html" class="details-link"
+											><i class="bi bi-link-45deg"></i
+										></a>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-xl-3 col-lg-4 col-md-6">
+								<div class="gallery-item h-100">
+									<img
+										src="assets/img/gallery/gallery-10.png"
+										class="img-fluid"
+										alt=""
+									/>
+									<div
+										class="gallery-links d-flex align-items-center justify-content-center"
+									>
+										<a
+											href="assets/img/gallery/gallery-10.png"
+											title="Gallery 10"
+											class="glightbox preview-link"
+											><i class="bi bi-arrows-angle-expand"></i
+										></a>
+										<a href="gallery-single.html" class="details-link"
+											><i class="bi bi-link-45deg"></i
+										></a>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-xl-3 col-lg-4 col-md-6">
+								<div class="gallery-item h-100">
+									<img
+										src="assets/img/gallery/gallery-11.gif"
+										class="img-fluid"
+										alt=""
+									/>
+									<div
+										class="gallery-links d-flex align-items-center justify-content-center"
+									>
+										<a
+											href="assets/img/gallery/gallery-11.gif"
+											title="Gallery 11"
+											class="glightbox preview-link"
+											><i class="bi bi-arrows-angle-expand"></i
+										></a>
+										<a href="gallery-single.html" class="details-link"
+											><i class="bi bi-link-45deg"></i
+										></a>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-xl-3 col-lg-4 col-md-6">
+								<div class="gallery-item h-100">
+									<img
+										src="assets/img/gallery/gallery-12.png"
+										class="img-fluid"
+										alt=""
+									/>
+									<div
+										class="gallery-links d-flex align-items-center justify-content-center"
+									>
+										<a
+											href="assets/img/gallery/gallery-12.png"
+											title="Gallery 12"
+											class="glightbox preview-link"
+											><i class="bi bi-arrows-angle-expand"></i
+										></a>
+										<a href="gallery-single.html" class="details-link"
+											><i class="bi bi-link-45deg"></i
+										></a>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-xl-3 col-lg-4 col-md-6">
+								<div class="gallery-item h-100">
+									<img
+										src="assets/img/gallery/gallery-13.png"
+										class="img-fluid"
+										alt=""
+									/>
+									<div
+										class="gallery-links d-flex align-items-center justify-content-center"
+									>
+										<a
+											href="assets/img/gallery/gallery-13.png"
+											title="Gallery 13"
+											class="glightbox preview-link"
+											><i class="bi bi-arrows-angle-expand"></i
+										></a>
+										<a href="gallery-single.html" class="details-link"
+											><i class="bi bi-link-45deg"></i
+										></a>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-xl-3 col-lg-4 col-md-6">
+								<div class="gallery-item h-100">
+									<img
+										src="assets/img/gallery/gallery-14.png"
+										class="img-fluid"
+										alt=""
+									/>
+									<div
+										class="gallery-links d-flex align-items-center justify-content-center"
+									>
+										<a
+											href="assets/img/gallery/gallery-14.png"
+											title="Gallery 14"
+											class="glightbox preview-link"
+											><i class="bi bi-arrows-angle-expand"></i
+										></a>
+										<a href="gallery-single.html" class="details-link"
+											><i class="bi bi-link-45deg"></i
+										></a>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-xl-3 col-lg-4 col-md-6">
+								<div class="gallery-item h-100">
+									<img
+										src="assets/img/gallery/gallery-15.gif"
+										class="img-fluid"
+										alt=""
+									/>
+									<div
+										class="gallery-links d-flex align-items-center justify-content-center"
+									>
+										<a
+											href="assets/img/gallery/gallery-15.gif"
+											title="Gallery 15"
+											class="glightbox preview-link"
+											><i class="bi bi-arrows-angle-expand"></i
+										></a>
+										<a href="gallery-single.html" class="details-link"
+											><i class="bi bi-link-45deg"></i
+										></a>
+									</div>
+								</div>
+							</div>
+							
+							<div class="col-xl-3 col-lg-4 col-md-6">
+								<div class="gallery-item h-100">
+									<img
+										src="assets/img/gallery/gallery-16.png"
+										class="img-fluid"
+										alt=""
+									/>
+									<div
+										class="gallery-links d-flex align-items-center justify-content-center"
+									>
+										<a
+											href="assets/img/gallery/gallery-16.png"
+											title="Gallery 16"
+											class="glightbox preview-link"
+											><i class="bi bi-arrows-angle-expand"></i
+										></a>
+										<a href="gallery-single.html" class="details-link"
+											><i class="bi bi-link-45deg"></i
+										></a>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</section>
+			</main> 
+		-->
+			<!-- End Gallery Section -->
+		</div>
 		<!-- ======= Footer ======= -->
 		<footer id="footer" class="footer">
 			<div class="container">
